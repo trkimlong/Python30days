@@ -1,1 +1,2 @@
-# Python 30 Days Learning
+# Python30days
+Thử thách 30 ngày học Python
