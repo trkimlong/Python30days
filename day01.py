@@ -16,7 +16,7 @@ print(x + str(y)) # Output: 53
 print(float(x) * y) # Output: 15.0
 print(type(int(x) + y)) # Output: <class 'int'>
 
-#Bài 3
+#Bài 3 : Viết không nhìn gợi ý
 shop_name = 'Cửa hàng Kim Long'
 number_of_employees = 3
 month_revenue = 1000000
@@ -30,4 +30,7 @@ Price ='250000' # Lỗi: chữ cái đầu tiên của biến viết hoa
 quantity = 10
 total = Price * quantity # Lỗi: biến Price sai trước đó, và khi in ra kết quả của total sẽ in 10 lần str '250000' thay vì số nguyên
 print(f'Tổng:{total}')
+
+#Bài 5: Giải thích cho người khác nghe: tại sao Python dùng thụt dòng thay vì {} như ngôn ngữ khác, và điều đó có nghĩa gì với người đọc code.
+# Python sử dụng thụt dòng để người đọc code có thể dễ dàng nhận biết các blocks, trực quan hơn. Và giúp kéo cần giữa visual struture và logic structure của code
 
