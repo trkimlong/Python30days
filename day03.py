@@ -97,7 +97,8 @@ cities = data.split[','] # Lỗi gì? ( đọc eror message trước khi sửa)
 first= cities[1] # đay là thành phố nào?
 # Ho Chi Minh
 last = cities[-0] # logic error, tại sao?
-# trên đời làm gì có -0, -1 mới đúng
-upper_cities = cities.upper() # lỗi gì? ( list không có .upper())
-print(upper_cities)
+# logic python -0 == 0 nên cities[-0] == cities[0] chứ không phải last city
+upper_cities = cities.upper() # lỗi gì?
+# upper() chỉ được dùng trên string, còn cities là list
 
+# ps: Bài hôm nay hơi đau đầu, có nhiều cấu trúc mới nhưng không được giải thích trong giáo trình phải tự mò, nhưng đó cũng là 1 cách học tốt.
